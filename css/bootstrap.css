@@ -2535,7 +2535,7 @@ input[type="checkbox"]:focus {
 output {
   display: block;
   padding-top: 11px;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.42857143;
   color: #2c3e50;
 }
