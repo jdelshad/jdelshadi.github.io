@@ -1,68 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta charset="utf-8">
-		<title>JRD Portfolio </title>
-		<meta name="generator" content="Bootply" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<!--[if lt IE 9]>
-			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<link href="css/styles.css" rel="stylesheet">
-	</head>
-	<body>
- 
-<div class="navbar navbar-default">
-  <div class="container">
-    <a class="navbar-brand" href="#">JRD</a>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">home</a></li>
-      <li><a href="#">projects</a></li>
-      <li><a href="#">human-comp interaction</a></li>
-      <li class="divider-vertical"></li>
-      <li><a href="#">graphic design</a></li>
-      <li><a href="#">blog</a></li>
-    </ul>
-  </div>
-</div>
 
-<div class="container">
-  <div class="jumbotron text-center">
-    <img src="graphics/bannerimage1.jpg">
-    <p><a class="btn btn-large btn-success" href="http://bootply.com/tagged/bootstrap-3" target="ext">More Examples</a></p>
-  </div>
-  
-  <div class="row">
-    <div class="col-lg-6">
-      <h4>Mobile First</h4>
-      <p>Responsive by default, and a clean "flat" design.</p>
-      
-      <h4>Powerful Grid</h4>
-      <p>3 responsive grid sizes to control the grid layout on tiny, small and large displays.</p>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>John Delshadi Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="brand"><img src="img/transparent-banner.png" width=100% height=100%></div>
+    <div class="address-bar"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">JRD Portfolio</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">HCI</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Graphics</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic"  data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="img/slide-1-b.jpg" alt="" onclick="window.location.href = 'http://www.bing.com/images/'; return true;">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <h2 class="brand-before">
+                        <small>Welcome</small>
+                    </h2>
+                    <h1 class="brand-name">   </h1>
+                    <hr class="tagline-divider">
+                    <h2>
+                        <small>
+                            <strong>John Delshadi</strong>
+                        </small>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">A Quick
+                        <strong>Biography &amp; Welcome </strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left" src="img/intro-pic (2).jpg" height="350" width="250" alt="">
+                    <hr class="visible-xs">
+                    <p>John Delshadi is a UC Irvine graduate, majoring in Informatics and specializing in Human Computer Interaction at the Bren School of Information and Computer Science, with research experience in the fields of Medical Informatics and Human Computer Interaction. Past project sponsors have included the Aerospace Corporation, University of California, San Francisco School of Medicine.</p>
+
+                    <p><strong>Hello there!</strong> I've had the priveleging of working on a wide variety of web development and HCI projects which are featured on the projects page. I also had the pleasure of working with the UC Irvine School of Medicine on iPad usage in the clinical interactions. </p>
+
+                    <p>Finally I'm aspiring to learn more graphic design skills using Adobe Illustrator, all design work displayed      are self created including all project branding. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Some of My 
+                        <strong>Favorite Tools</strong>
+                    </h2>
+                    <img class="img-responsive img-border img-center" src="img/tools.svg"
+                    <hr>
+                    
+                </div>
+            </div>
+        </div>
+
     </div>
-    
-    <div class="col-lg-6">
-      <h4>New Elements</h4>
-      <p>New panels, list groups, glyphicons and justified navigation.</p>
-      
-      <h4>Less Bloat</h4>
-      <p>The optimized CSS is in a single file. Glyphicons are now separate.</p>
-    </div>
-  </div>
-  
-  <hr>
-  
-  <div class="jumbotron text-center">
-    <h2>Moving from Bootstrap 2.x to 3.0?</h2>
-    <p class="lead">Everything has changed, so you can't just replace the 2.x with the 3.0 files. The folks at Bootply, the Bootstrap Playground have created a migration guide to help.</p>
-    <p><a class="btn btn-large btn-success" href="http://www.bootply.com/bootstrap-3-migration-guide" target="ext">Migration Guide</a></p>
-  </div>
-  
-</div> <!-- /container -->
-	<!-- script references -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-	</body>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; John Delshadi 2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
 </html>
