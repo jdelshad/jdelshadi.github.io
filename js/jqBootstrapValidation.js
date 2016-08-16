@@ -51,11 +51,11 @@
 
           $inputs.each(function (i, el) {
             var $this = $(el),
-              $controlGroup = $this.parents(".control-group").first();
+              $controlGroup = $this.parents(".form-group").first();
             if (
-              $controlGroup.hasClass("has-warning")
+              $controlGroup.hasClass("warning")
             ) {
-              $controlGroup.removeClass("has-warning").addClass("has-error");
+              $controlGroup.removeClass("warning").addClass("error");
               warningsFound++;
             }
           });
@@ -66,12 +66,12 @@
             if (settings.options.preventSubmit) {
               e.preventDefault();
             }
-            $form.addClass("has-error");
+            $form.addClass("error");
             if ($.isFunction(settings.options.submitError)) {
               settings.options.submitError($form, e, $inputs.jqBootstrapValidation("collectErrors", true));
             }
           } else {
-            $form.removeClass("has-error");
+            $form.removeClass("error");
             if ($.isFunction(settings.options.submitSuccess)) {
               settings.options.submitSuccess($form, e);
             }
@@ -82,7 +82,7 @@
 
           // Get references to everything we're interested in
           var $this = $(this),
-            $controlGroup = $this.parents(".control-group").first(),
+            $controlGroup = $this.parents(".form-group").first(),
             $helpBlock = $controlGroup.find(".help-block").first(),
             $form = $this.parents("form").first(),
             validatorNames = [];
@@ -473,7 +473,7 @@
               // Were there any errors?
               if (errorsFound.length) {
                 // Better flag it up as a warning.
-                $controlGroup.removeClass("has-success has-error").addClass("has-warning");
+                $controlGroup.removeClass("success error").addClass("warning");
 
                 // How many errors did we find?
                 if (settings.options.semanticallyStrict && errorsFound.length === 1) {
@@ -486,20 +486,20 @@
                     ( settings.options.prependExistingHelpBlock ? $helpBlock.data("original-contents") : "" ));
                 }
               } else {
-                $controlGroup.removeClass("has-warning has-error has-success");
+                $controlGroup.removeClass("warning error success");
                 if (value.length > 0) {
-                  $controlGroup.addClass("has-success");
+                  $controlGroup.addClass("success");
                 }
                 $helpBlock.html($helpBlock.data("original-contents"));
               }
 
               if (e.type === "blur") {
-                $controlGroup.removeClass("has-success");
+                $controlGroup.removeClass("success");
               }
             }
           );
           $this.bind("validationLostFocus.validation", function () {
-            $controlGroup.removeClass("has-success");
+            $controlGroup.removeClass("success");
           });
         });
       },
@@ -510,7 +510,7 @@
 
             var
               $this = $(this),
-              $controlGroup = $this.parents(".control-group").first(),
+              $controlGroup = $this.parents(".form-group").first(),
               $helpBlock = $controlGroup.find(".help-block").first();
 
             // remove our events
