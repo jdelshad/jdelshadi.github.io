@@ -1,0 +1,52 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #fff;
+  margin-top: 10px;
+  overflow: hidden; 
+}
+
+#main {
+  float: left;
+  width: 98vw;
+  height: 95vh; 
+}
+
+#menu {
+  height: 5vh;
+}
+
+#sequence {
+  width: 100vw;
+  height: 5vh;
+}
+
+
+#sequence text{
+  font-weight: 600;
+  fill: #fff;
+}
+
+#chart {
+  position: relative;
+  height: 83vh; 
+}
+
+#chart path {
+  stroke: #fff;
+}
+
+#explanation {
+  position: absolute;
+  top: 40%;
+  left: 43%;
+  width: 15%;
+  text-align: center;
+  color: #666;
+  z-index: -1;
+}
+
+#center {
+  font-size: 2.25em;
+}
