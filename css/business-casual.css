@@ -26,7 +26,7 @@ h6 {
 }
 
 p {
-    font-size: 1.25em;
+    font-size: 1.3em;
     line-height: 1.6;
     color: #000;
 }
@@ -38,6 +38,24 @@ p.intro {
     display: block;
 }
 
+div#logo {
+    float: left;
+    width: 30%
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+div#content {
+    float: right;
+    width: 70%;
+    font-size: 1.55em;
+
+}
+
+}
 hr {
     max-width: 400px;
     border-color: #999999;
@@ -190,7 +208,12 @@ footer p {
         font-size: 1.25em;
     }
 }
-
+.row_poster,.video{
+    float: left;
+}
+.clearfix{
+    clear:both
+}
 @media screen and (min-width:1200px) {
     .box:after {
         content: '';
