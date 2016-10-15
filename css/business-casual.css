@@ -39,8 +39,7 @@ p.intro {
 }
 
 div#logo {
-    float: left;
-    width: 30%
+    position: relative;
 }
 
 IMG.displayed {
