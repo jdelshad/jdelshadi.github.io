@@ -89,29 +89,90 @@ ga('send', 'pageview');
         <div class="col-xs-12">
           <div id="content">
             <div class="logo">
-              <h1> The Illios Curriculum Visualizer</h2>
+              <h1> The Illios Curriculum Visualizer</h1>
                 <h1 class="intro-text text-center"><a href="IliosProject-master/illios.html" text-center >Click to Demo</a></h1>
                 <img class="present" src="img/illios/illiosscreenshot.png" alt="">
                 <br>
-                <h5><strong> Problem Statement</strong></h5>
                 <img class="present2" src="img/illios/illiosproblemstatement2.png" alt="">
-                <p class="prg">  </p>
+
+                <h2>Problem Statement</h2>
+                <div style="text-align: center;">
+                   <div style="display: inline-block; text-align: left">
+                <p class="prg"><ul>
+                    <li> The client’s previous solution required manual, hand created revisions for each class year and for every change to the curriculum. </li>
+                    <li> Past visualizations did not adequately capture the depth or aim with comprehension of the information. </li>
+                </ul></p></div></div>
+                <br>
                   <img class="present" src="img/illios/illsorg2.png" alt="">
-                  <h6> Example of source material provided by client</h6>
-                <strong> Drafting & Design:</strong>
-                <p>We began by looking at models that presetned </p>
+                  <h6> Example of orginal visualizations provided by client</h6>
 
 
+                  <h2>Drafting & Design</h2>
+                  <div style="text-align: center;">
+                     <div style="display: inline-block; text-align: left">
+                  <p class="prg"> <ul> Initially our team set out to recreate the “swim-lane” diagrams provided by our client,
+                    keeping an existing representation of data while adding automated redrawing and some interactivity.
+                    Our team quickly realized the limited potential of this modality.</ul>
+                  </p></div></div>
+                  <br>
+                  <img class="present2" src="img/illios/swimlaneconcept.png" alt="">
+                  <h6> Intial swim-lane concept</h6>
 
-                </div>
-              </div>
+                  <div style="text-align: center;">
+                     <div style="display: inline-block; text-align: left">
+                  <p class="prg"> <ul> We then began by looking to other models that displayed nested information using interactive and scalable methods of presentation. Using the existing rich D3.js library, our team began experimenting with the
+                    ‘sunburst’ visualization.  A data representation ideal for incongruent data sets such as medical school curriculum.
+                    An additional, major consideration was the clients existing curriculum system utilized
+                     JSON data-interchange format allowing direct integration into the client’s system. </ul>
+                  </p></div></div>
 
+                  <img class="present" src="img/illios/illwhiteboard2.jpg" alt="">
+                  <h6> Initial white board concept</h6>
 
+                  <div style="text-align: center;">
+                     <div style="display: inline-block; text-align: left">
+                  <p class="prg"> <ul>Our team took existing sunburst models,
+                    deconstructed and tested different versions of the models to understand how data was mapped,
+                    layered and displayed. We began working rapid prototypes to better understand the workings of the d3.js
+                    (JavaScript) code and the provide client prototypes. Analyzing the structure of data generated from
+                    the clients existing system and interviewing stakeholders we settled on creating a “4-layer path,”
+                    from Program to Cohort to Competency and finally to Course level.
+                    Allowing students to understand how each course fits with core curricular competency. </ul>
+                  </p></div></div>
+
+                  <img class="present" src="img/illios/devcycle.png" alt="">
+                  <h6> Prototype concept, displaying layering and mapping</h6>
 
 
             </div>
+            <h2>Drafting & Design</h2>
+            <div style="text-align: center;">
+               <div style="display: inline-block; text-align: left">
+            <p class="prg"> <ul>
+              The sunburst originally used JSON, however the default data model for Ilios is a Javascript file.
+              The visualization had to use the data model provided by the client, to overcome this challenge our
+              team modified the Sunburst model to accept Javascript files.
+            </p></div></div>
 
+            <p class="prg"> <ul>
+              The visualization is built using Ember a JS framework that the clients Ilios Curriculum Manager application is
+                built on. The visualization utlizes the D3 Javascript library,
+                specifically the Zoomable Sunburst. The Sunburst is a hierarchical tree map
+                using a radial layout. The first layer, the root node, is the innermost layer of the
+                Sunburst. From there, it is a hierarchical visualization using paths.</ul>
+            </p>
+            <h2>Final Product</h2>
+            <div style="text-align: center;">
+               <div style="display: inline-block; text-align: left">
+            <p class="prg"> <ul><b>The final result is a solution that is:</b></ul><ul>
+              <li> Interactive: Each piece is zoomable, uses breadcrumbs totrack depth. </li>
+              <li> Scaleable: Changing the data files associated with the visualizer, update & rebuild the model automatically. </li>
+              <li> Intuitive: The sunburst design conveys time and builds up logically incorporating courses  to learning outcomes. </li>
+            </p>
+            <img class="present" src="img/illios/finalproduct.png" alt="">
           </div>
+</div>
+          </div></div></div></div>
           <!-- /.container -->
 
           <footer>
