@@ -28,7 +28,11 @@ h2{
      letter-spacing: 1px;
 }
 h3,
-h4,
+h4{
+  text-align: left;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;  font-weight: 500;
+  font-size: 1em;
+}
 h5{
   text-align: center;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
