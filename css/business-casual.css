@@ -92,6 +92,10 @@ IMG.present2{
     margin: auto;
     width: 50%;}
 
+IMG.present3{
+        display: block;;
+        margin: auto;
+        width: 90%;}
 div#content {
     font-size: 1.55em;
 
