@@ -6,6 +6,7 @@ Hello! I'm John, I am a Product Management working at [Cornerstone Ondemand](htt
  
 ### Quick Links
 
+![Image](playlist-details.png)
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
@@ -15,7 +16,7 @@ Syntax highlighted code block
 ## Header 2
 ### Header 3
 
-![Image](playlist-details.png)
+
 
 - Bulleted
 - List
