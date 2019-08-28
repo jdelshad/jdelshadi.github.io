@@ -1,9 +1,9 @@
 ## John "JD" Delshadi
 
-You can use the [editor on GitHub](https://github.com/jdelshad/jdelshad.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Writer of User Stories, Maker of sticky note sprint plans. Great products are built on great relationships and careful planning. Connecting engineering, clients and business stakeholders is where I feel most at home.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
+Hello! I'm John, I am a Product Management working on Cornerstone Learning. As a product manager, I believe that intersection of learning and technology can transform how we learn and grow at work, in our organizations and in our lives. 
+ 
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
