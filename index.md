@@ -14,7 +14,9 @@ Syntax highlighted code block
 # Key Projects
 ## Header 2
 ### Header 3
-[Image](playlist-details.png)
+
+![Image](playlist-details.png)
+
 - Bulleted
 - List
 
