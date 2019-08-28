@@ -2,9 +2,9 @@
 
 Writer of User Stories, Maker of sticky note sprint plans. Great products are built on great relationships and careful planning. Connecting engineering, clients and business stakeholders is where I feel most at home.
 
-Hello! I'm John, I am a Product Management working on Cornerstone Learning. As a product manager, I believe that intersection of learning and technology can transform how we learn and grow at work, in our organizations and in our lives. 
+Hello! I'm John, I am a Product Management working at [Cornerstone Ondemand](https://www.cornerstoneondemand.com/learning) . As a product manager, I believe that intersection of learning and technology can transform how we learn and grow at work, in our organizations and in our lives. 
  
-### Markdown
+### Quick Links
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
